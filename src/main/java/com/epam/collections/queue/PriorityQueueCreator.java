@@ -14,7 +14,6 @@ public class PriorityQueueCreator {
             priorityQueue.addAll(secondList);
         }
         return priorityQueue;
-
     }
 
     class MyComparator implements Comparator<String> {
